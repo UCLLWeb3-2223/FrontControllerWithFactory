@@ -46,7 +46,7 @@
             </c:otherwise>
         </c:choose>
         <p>Het laatste dier dat je hebt toegevoegd heet ${last.name} </p>
-        <p>Het laatste dier dat je hebt toegevoegd heet ${sessionScope.lastAddedAnimal.name} </p>
+        <p>Het laatste dier dat je hebt toegevoegd heet ${sessionScope.lastAddedAnimal.name} (uit session gehaald)</p>
 
     </main>
     <jsp:include page="footer.jsp"/>
