@@ -47,8 +47,4 @@ public class Controller extends HttpServlet {
 
     }
 
-    private String add(HttpServletRequest request, HttpServletResponse response) {
-        return "add.jsp";
-    }
-
 }
